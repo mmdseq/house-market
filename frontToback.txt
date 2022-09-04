@@ -1,0 +1,173 @@
+npm i react-icons
+
+const Card = ({ children, reverse }) => {
+  //   return <div className={`card ${reverse && 'reverse'}`}>{children}</div>
+
+ style={{
+        backgroundColor: reverse ? 'rgba(0,0,0,0.4)' : '#fff',
+        color: reverse ? '#fff' : '#000',
+      }}
+
+}
+
+
+
+// default props
+Card.defaultProps = {
+  reverse: false,
+}
+
+
+// propTypes
+FeedbackList.propTypes = {
+  feedback: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      text: PropTypes.string.isRequired,
+      rating: PropTypes.number.isRequired,
+    })
+  ),
+}
+
+
+
+npm i uuid
+import { v4 as uuidv4 } from 'uuid'
+
+
+ newFeedback.id = uuidv4()
+
+
+npm i framer-motion@4.1.17
+
+
+
+
+//-----------------------------------
+
+MAC BACKEND
+
+npm i json-server
+
+  "server": "json-server --watch db.json --port 5000"
+
+
+db.json
+
+{
+  "feedback": [
+    {
+      "id": 1,
+      "rating": 10,
+      "text": "This is feedback item 1 coming from the backend"
+    },
+
+
+post,put,...
+http://localhost:5000/feedback/4
+
+
+
+
+/----------------------proxy--------------
+in package.json
+
+"name": "feedback-app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+
+
+then instead of this
+    const response = await fetch(
+      `http://localhost:5000/feedback?_sort=id&_order=desc`
+    )
+
+use this
+
+ const response = await fetch(
+      `/feedback?_sort=id&_order=desc`
+    )
+
+
+
+
+npm i react toastify
+
+alert...
+
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+
+
+import { toast } from 'react-toastify'
+
+} catch (error) {
+      toast.error('Bad User Credentials')
+    }
+
+
+
+
+slider 
+
+npm i swiper react-swiper
+
+
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/swiper-bundle.css'
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y])
+
+
+
+ <Swiper slidesPerView={1} pagination={{ clickable: true }}>
+        {listing.imgUrls.map((url, index) => (
+          <SwiperSlide key={index}>
+            <div
+              style={{
+                background: `url(${listing.imgUrls[index]}) center no-repeat`,
+                backgroundSize: 'cover',
+              }}
+              className='swiperSlideDiv'
+            ></div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+
+
+
+//
+
+mern stack
+
+
+npm init
+git init
+
+
+
+
+ npm i express dotenv mongoose colors bcryptjs
+
+npm install --save express-async-handler
+
+in controlers 
+
+const asyncHandler = require('express-async-handler')
+
+
+cz we use mongoose and it returns a promise ..
+
+
+
+npm i jsonwebtoken
+
+
+npx create-react-app frontend --template redux 
+
+
+npm i concurrently   #run both backend and frontend#
+
+
+

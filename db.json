@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "email": "mmdseq@gmail.com",
+      "password": "$2a$10$NgcNueDudKCEuUADdC6JkOkN.AFKugL.ohK/4kR9jf4Ro5EvNCYSi",
+      "name": "محمد ندیمی",
+      "id": 1
+    },
+    {
+      "email": "alireza@gmail.com",
+      "password": "$2a$10$VGn1uExZcA5j3XYO6yyM1uV2CKLAVStzg8gwTFzvOC3GfjrozQggO",
+      "name": "Alireza",
+      "id": 2
+    }
+  ],
+  "listings": [
+    {
+      "name": "خانه آپارتمانی طبقه اول",
+      "phoneNumber": "09010660181",
+      "address": "تهران، چهار راه ولیعصر، به سمت جمهوری، کوچه محتشم پلاک 6",
+      "description": "دارای سند تک برگ و ویو عالی",
+      "bedrooms": "2",
+      "parking": true,
+      "price": "800000000",
+      "lat": 35.69912868360278,
+      "lng": 51.4043641490109,
+      "userRef": 1,
+      "timestamp": 1661638963176,
+      "id": 1
+    },
+    {
+      "name": "خانه ویلایی",
+      "phoneNumber": "09123131415",
+      "address": "کرمانشاه، چهار راه وکیل اقا",
+      "description": "دارای بهترین ویو و حیاط خلوت",
+      "bedrooms": "2",
+      "parking": true,
+      "price": "1340000000",
+      "lat": 34.31880585845991,
+      "lng": 47.05839157104492,
+      "userRef": 1,
+      "timestamp": 1661640115424,
+      "id": 2
+    },
+    {
+      "name": "واحد 40 متری",
+      "phoneNumber": "09123134585",
+      "address": "تهران، مرزداران، برج الوند ",
+      "description": "واحد تجاری داری سند تک برگ",
+      "bedrooms": "3",
+      "parking": false,
+      "price": "920000000",
+      "lat": 35.73191694137257,
+      "lng": 51.344175543044265,
+      "userRef": 1,
+      "timestamp": 1661640270479,
+      "id": 3
+    },
+    {
+      "name": "واحد اپارتمانی طبقه سوم",
+      "phoneNumber": "0910234585",
+      "address": "تهران، میدان میدان ولیعصر، بلوار کشاورز",
+      "description": "سند ندارد ",
+      "bedrooms": "1",
+      "parking": true,
+      "price": "550000000",
+      "lat": 35.708886429449805,
+      "lng": 51.39773176971912,
+      "userRef": 1,
+      "timestamp": 1661640530756,
+      "id": 4
+    },
+    {
+      "name": "خانه 200 متری غرب تهران",
+      "phoneNumber": "0918334323",
+      "address": "تهران، ایران، ستارخان، کوچه ششم",
+      "description": "دوواحدی طبقه هفتم",
+      "bedrooms": "1",
+      "parking": true,
+      "price": "1340000000",
+      "lat": 35.72209233295344,
+      "lng": 51.33645094096763,
+      "userRef": 1,
+      "timestamp": 1661641980026,
+      "id": 5
+    },
+    {
+      "name": "خانه هم کف در تجریش",
+      "phoneNumber": "09010660181",
+      "address": "تهران، تجریش، خیبابان اول ",
+      "description": "نزدیک مترو و بی ار تی تجریش",
+      "bedrooms": "0",
+      "parking": false,
+      "price": "650000000",
+      "lat": 35.80643297975122,
+      "lng": 51.43198013305665,
+      "userRef": 2,
+      "timestamp": 1661642236488,
+      "id": 6
+    }
+  ]
+}
